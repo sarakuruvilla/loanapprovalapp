@@ -1,0 +1,26 @@
+{
+  "categorical": [
+    "Gender",
+    "Married",
+    "Dependents",
+    "Education",
+    "Self_Employed",
+    "Property_Area"
+  ],
+  "numeric": [
+    "ApplicantIncome",
+    "CoapplicantIncome",
+    "LoanAmount",
+    "Loan_Amount_Term",
+    "Credit_History",
+    "Age",
+    "CIBIL_Score",
+    "Existing_Loans",
+    "EMI_to_Income"
+  ],
+  "target": "Loan_Status",
+  "classes": {
+    "0": "Rejected",
+    "1": "Approved"
+  }
+}
